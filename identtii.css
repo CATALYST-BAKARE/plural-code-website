@@ -1,0 +1,332 @@
+body{
+  margin: 0;
+  padding: 0;
+  padding-top: 80px;
+  background-color: white;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background: #101010;
+  box-shadow: 0px 23px 35px rgba(1, 20, 31, 0.22);
+  z-index: 100;
+
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 200px;
+width: 100%;
+height: 100%;
+}
+.left-side img{
+  width: min(50vw, 100px);
+}
+ul{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 32px;
+list-style-type: none;
+white-space: nowrap;
+}
+li a{
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #FFFFFF;
+text-decoration: none;
+}
+li a:hover{
+  color: #23A6F0;
+}
+.right-side{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+}
+.instagram-logo-container{
+width: 24px;
+height: 24px;
+}
+.twitter-logo-container{
+width: 24px;
+height: 19.76px;
+}
+.Sign-button{
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 30px;
+padding-right: 30px;
+background-image: linear-gradient(to right, #23A6F0, #02324E);
+border-radius: 12px;
+font-family: 'Open Sans',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 8px;
+color: white;
+white-space: nowrap;
+position: relative;
+}
+.Sign-button img{
+  height: 12px;
+  position: absolute;
+  right: 6px;
+  top: 18px;
+}
+.content{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+text-align: center;
+align-items: center;
+justify-content: content;
+}
+.content-img{
+  width: min(50vw, 429px);
+}
+/*this is the do deal text*/
+.content-text{
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+text-align: center;
+color: rgb(33, 37, 41);
+width: min(80vw, 400px);
+margin-top: 5px;
+}
+.Search-bar{
+position: relative;
+display: flex;
+flex-direction: row;
+padding: 0px;
+align-items: center;
+box-sizing: border-box;
+margin-bottom: 70px;
+}
+input{
+background: #F4FBFF;
+border-radius: 30px 0px 0px 30px;
+
+}
+input[type="text"]{
+width: 540px;
+padding: 15px 35px;
+border-radius: 25px 0 0 25px;
+border: none;
+}
+.search-icon{
+height: 15px;
+position: absolute;
+left: 8px;
+}
+.search-img{
+  height: 20px;
+  position: absolute;
+  right: 120px;
+}
+input::placeholder{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+color: #000000;
+opacity: 0.4;
+padding-left: 30px;
+}
+input[type="submit"]{
+position: relative;
+left: -4px;
+width: 150px;
+background-image: linear-gradient(to right, #23A6F0, #02324E);
+color: #f2f2f2;
+font-family: "Open Sans", sans-serif;
+border-radius: 0px 30px 30px 0px;
+cursor: pointer;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 5px;
+padding-right: 25px;
+border: none;
+}
+.content-pics{
+text-align: center;
+}
+.Iphone-X{
+width: 400px; 
+}
+/* this is the lendersbox container*/
+.lendersbox{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  align-items: center;
+  padding-left: 96px;
+  margin-bottom: 20px;
+}
+.Identtii-02{
+  background: url(icons/Identtii-02.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 539px;
+  height: 528px;
+}
+/* this is second section background pics*/
+.second{
+  background: url(icons/cartoon-handraw.png);
+  width: 540px;
+  height: 505.8px;
+}
+.third{
+  background: url(icons/Identtii-03.png);
+  width: 540px;
+  height: 505.8px;
+}
+.fourth{
+  background: url(icons/Identtii-01.png);
+  width: 540px;
+  height: 505.8px;
+}
+/*this side text is for the four section*/
+.side-text{
+line-height: 10px;
+padding-right: 15px;
+padding-left: 15px;
+position: relative;
+}
+.side-text h2{
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: bolder;
+font-size: 30px;
+color: #18191F;
+}
+.side-text .first-container-text{
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  width: 90%;
+  line-height: 32px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  padding-right: 20px;
+}
+.side-text .second-container-text{
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  width: 500px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.side-text .third-container-text{
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  width: 500px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.side-text .fourth-container-text{
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  width: 500px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.side-text a{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 20px;
+  color: #23A6F0;
+  width: 180px;
+}
+.side-text img{
+  margin-left: 20px;
+  text-align: center;
+  width: 20px;
+  height: 12px;
+}
+.last-section{
+  background: #021629;
+  width: 100%;
+  height: 604px ;
+  display: flex;
+
+
+}
+.protect-image{
+  background: url(icons/protect-picture.png);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 100%;
+  height: 500px;
+  margin-left: 100px;
+}
+.last-section h2{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+  color: white;
+  width: 100%;
+}
+.last-section p{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #f2f2f2b2;
+}
+.protect-side-text{
+text-align: left;
+margin-left: 10px;
+}
+.Get-button{
+  padding: 20px;
+  background-image: linear-gradient(to right, #23A6F0, #02324E);
+  border-radius: 50px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 8px;
+  color: white;
+  border-radius: 30px;
+  border: none;
+}
+.Get-button img{
+  height: 12px;
+}
